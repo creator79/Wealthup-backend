@@ -30,7 +30,7 @@ const codeSchema = new mongoose.Schema({
         },
        
       }
-      ,{ expires: 100 });
+      ,{ expires: 70 });
 
 
 const CodeModel = mongoose.model('Code', codeSchema);
